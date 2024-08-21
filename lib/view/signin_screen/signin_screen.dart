@@ -161,7 +161,6 @@ class SignInScreen extends StatelessWidget {
                                       suffixIcon: IconButton(
                                         onPressed: () {
                                           AuthCubit.get(context).hidePassword();
-
                                         },
                                         icon: Icon(
                                           AuthCubit.get(context).isHidPass
@@ -302,7 +301,7 @@ class SignInScreen extends StatelessWidget {
                     ],
                   ),
                   // SizedBox(height: 30.h),
-                      //! Google Sign-In Button      
+                  //! Google Sign-In Button
                   // SizedBox(
                   //   width: 200.w,
                   //   child: ElevatedButton.icon(
