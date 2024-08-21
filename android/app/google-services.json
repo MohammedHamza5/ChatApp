@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "562150766282",
+    "project_id": "chat-app-320bd",
+    "storage_bucket": "chat-app-320bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562150766282:android:9e048d8269461e863c2633",
+        "android_client_info": {
+          "package_name": "com.eraasoft.chat_appp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Mzg6bPszN7LxVsTCJSEYJcO_mWwni4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
