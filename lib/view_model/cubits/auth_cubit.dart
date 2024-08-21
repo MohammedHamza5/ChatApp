@@ -42,6 +42,7 @@ class AuthCubit extends Cubit<AuthState> {
     isHidPass = !isHidPass;
     emit(AppPasswordVisibilityChanged());
   }
+
   Future<UserModel?> getUserFromPreferences() async {
     try {
       String? uid = await SharedPreferenceHelper.getUserId();

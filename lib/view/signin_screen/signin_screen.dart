@@ -161,6 +161,7 @@ class SignInScreen extends StatelessWidget {
                                       suffixIcon: IconButton(
                                         onPressed: () {
                                           AuthCubit.get(context).hidePassword();
+
                                         },
                                         icon: Icon(
                                           AuthCubit.get(context).isHidPass
